@@ -172,21 +172,6 @@ namespace knu
 		unsigned int model_format_size;
         std::vector<Mesh> meshes;
         std::unordered_map<std::string, knu::Obj_Material> str_mat_map;
-        
-        std::vector<knu::math::Vector3f> get_vertex_data() const
-        {
-            return meshes.front().v;
-        }
-        
-        std::vector<knu::math::Vector2f> get_tex_coord_data() const
-        {
-            return meshes.front().t;
-        }
-        
-        std::vector<knu::math::Vector3f> get_normal_data() const
-        {
-            return meshes.front().n;
-        }
 
 		Mesh first_mesh()
 		{
