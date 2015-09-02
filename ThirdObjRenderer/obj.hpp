@@ -137,7 +137,7 @@ namespace knu
 
     enum class ObjFormat
     {
-        Vertex = 1,    // vertex only
+        Vertex,    // vertex only
         VertexTexture,    // vertex texture
         VertexNormal,    // vertex normal
         VertexTextureNormal // vertex texture normal
